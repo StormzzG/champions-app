@@ -36,7 +36,7 @@ if home == 'Developer Intro':
     with col2:
         st.markdown("<p style='text-align: center; font-family: Cursive; font-size: 20px; padding-top: 250px; margin-left: -350px;'>Hi there! My name is Stormy Ndonga, a Data Science Student at Moringa School Kenya.This is my Final Project Exploratory Data Analysis for the UEFA Champions League 2021/22. Click on the Data Analysis tab to have a look at it!</p>", unsafe_allow_html=True)
         st.write("<p style='margin-left: -215px; font-family: Cursive; font-size: 20px; margin-top:-20px; margin-bottom: -10px'> Another version of this project exists on my Github Profile, have a look at it here:</p>",unsafe_allow_html=True)
-        st.write('https://github.com/StormzzG/Netflix-analysis')
+        st.write('https://github.com/StormzzG/Champions-League')
 
 if home == 'Data Analysis':
     with st.sidebar:
