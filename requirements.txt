@@ -1,0 +1,6 @@
+pandas
+matplotlib
+numpy
+plotly
+streamlit_option_menu
+streamlit_lottie
