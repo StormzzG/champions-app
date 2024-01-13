@@ -1,6 +1,6 @@
 This a Champions League Interactive Data App.
 
-Have a look at it here: https://champions-app.streamlit.app/
+[View App](https://champions-app.streamlit.app/)
 
 Softwares used:
  **Python**
