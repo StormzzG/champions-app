@@ -14,7 +14,7 @@ st.markdown('<style>div.block-container{padding-top:2rem; margin-bottom:2rem}<st
 home = option_menu(
     menu_icon=None,
     menu_title=None,
-    options=['Developer Intro','Data Visualization'],
+    options=['Developer Intro','Data Analysis'],
     icons=['person-fill','bar-chart-fill'],
     default_index=0,
     orientation='horizontal'
@@ -39,7 +39,7 @@ if home == 'Developer Intro':
         #st.markdown("<span style='margin-left: 260px'>[App](https://github.com/StormzzG/Champions-League)</span>",unsafe_allow_html=True)
         #margin-left: -350px;
         #margin-left: -215px;
-if home == 'Data Visualization':
+if home == 'Data Analysis':
     with st.sidebar:
         selected = option_menu(
             menu_icon='house',
