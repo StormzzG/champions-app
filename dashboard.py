@@ -14,7 +14,7 @@ st.markdown('<style>div.block-container{padding-top:2rem; margin-bottom:2rem}<st
 home = option_menu(
     menu_icon=None,
     menu_title=None,
-    options=['Developer Intro','Data Analysis'],
+    options=['Developer Intro','Data Visualization'],
     icons=['person-fill','bar-chart-fill'],
     default_index=0,
     orientation='horizontal'
@@ -34,12 +34,12 @@ if home == 'Developer Intro':
         )
     with col2:
         st.markdown("<p style='text-align: center; font-family: Cursive; font-size: 20px; padding-top: 210px;'>Hi there! My name is Stormy Ndonga, a Data Science Student at Moringa School Kenya.This is my Final Project Exploratory Data Analysis for the UEFA Champions League 2021/22. Click on the Data Analysis tab to have a look at it!</p>", unsafe_allow_html=True)
-        st.markdown("<p style='margin-left: 100px; font-family: Cursive; font-size: 20px; margin-bottom: -10px'> Another version of this project exists on my Github Profile, have a look at it here:</p>",unsafe_allow_html=True)
+        st.markdown("<span style='margin-left: 100px; font-family: Cursive; font-size: 20px; margin-bottom: -10px'> Another version of this project exists on my Github Profile, have a look at it [here](https://champions-app.streamlit.app/)</span>",unsafe_allow_html=True)
         #st.markdown('https://github.com/StormzzG/Champions-League')
-        st.markdown("<span style='margin-left: 260px'>https://github.com/StormzzG/Champions-League</span>",unsafe_allow_html=True)
+        #st.markdown("<span style='margin-left: 260px'>[App](https://github.com/StormzzG/Champions-League)</span>",unsafe_allow_html=True)
         #margin-left: -350px;
         #margin-left: -215px;
-if home == 'Data Analysis':
+if home == 'Data Visualization':
     with st.sidebar:
         selected = option_menu(
             menu_icon='house',
