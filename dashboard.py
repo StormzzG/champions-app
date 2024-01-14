@@ -34,7 +34,7 @@ if home == 'Developer Intro':
         )
     with col2:
         st.markdown("<p style='text-align: center; font-family: Cursive; font-size: 20px; padding-top: 210px;'>Hi there! My name is Stormy Ndonga, a Data Science Student at Moringa School Kenya.This is my Final Project Exploratory Data Analysis for the UEFA Champions League 2021/22. Click on the Data Analysis tab to have a look at it!</p>", unsafe_allow_html=True)
-        st.markdown("<span style='margin-left: 100px; font-family: Cursive; font-size: 20px; margin-bottom: -10px'> Another version of this project exists on my Github Profile, have a look at it [here](https://champions-app.streamlit.app/)</span>",unsafe_allow_html=True)
+        st.markdown("<span style='margin-left: 100px; font-family: Cursive; font-size: 20px; margin-bottom: -10px'> Another version of this project exists on my Github Profile, have a look at it [here](https://github.com/StormzzG/Champions-League)</span>",unsafe_allow_html=True)
         #st.markdown('https://github.com/StormzzG/Champions-League')
         #st.markdown("<span style='margin-left: 260px'>[App](https://github.com/StormzzG/Champions-League)</span>",unsafe_allow_html=True)
         #margin-left: -350px;
